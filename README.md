@@ -1,6 +1,6 @@
-# crud
+# crud_example
 
-Cruds exampels
+A new Flutter application.
 
 ## Getting Started
 

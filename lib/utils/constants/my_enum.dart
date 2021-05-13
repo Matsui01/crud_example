@@ -1,0 +1,36 @@
+enum ConnectionResultType {
+  NONE,
+  WRONG_CREDENTIAL,
+  REFRESH_SUCCESS,
+  EMAIL_NOT_VERIFIED,
+  CONNECTION_ERROR,
+  REFRESH_FAIL,
+  UNKNOWN_ERROR,
+  SERVER_ERROR,
+  SUCCESS,
+  CREATED,
+  LOCAL_DATA
+}
+enum LoginType {
+  GOOGLE,
+  FACEBOOK,
+  APPLE,
+  EMAIL,
+}
+enum HeaderType {
+  JSON_HEADER,
+  ACCESS_TOKEN,
+  REFRESH_TOKEN,
+}
+enum MaskType {
+  TELEFONE,
+  CPF,
+  CNPJ,
+  CEP,
+  DATA,
+  DATA_CARD,
+}
+enum ConnectionErrorType {
+  INTERNET,
+  SOMETHING_WRONG,
+}
